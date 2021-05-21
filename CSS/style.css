@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+#intro {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 1.7rem;
+}
+
+.section-title-underline span {
+  display: inline-block;
+  border-bottom: 4px solid #51be78;
+}
+.courseimg_radius {
+  border-radius: 2rem;
+}
+.page-footer {
+  background-color: #fff;
+}
+
+#divider {
+  background-color: #0ae288;
+  height: 2px;
+  width: 20%;
+  border: 2px solid #0ae288;
+}
+
+.cimg {
+  height: 500px;
+}
+
+.separate {
+  background: aqua;
+  border: 1px solid aqua;
+  height: 30px;
+}
