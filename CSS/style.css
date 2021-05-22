@@ -5,19 +5,20 @@
 }
 body,
 html {
-  background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
+  background: rgb(195, 34, 137);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 137, 1) 0%,
+    rgba(45, 231, 253, 1) 100%
   );
 
   background-position: cover;
   background-repeat: no-repeat;
 }
 
+.nav-color {
+  background: #f3a4f5;
+}
 #intro {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
@@ -52,4 +53,25 @@ html {
   background: aqua;
   border: 1px solid aqua;
   height: 30px;
+}
+
+.bg-login {
+  background: rgb(195, 34, 137);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 137, 1) 0%,
+    rgba(45, 231, 253, 1) 100%
+  );
+}
+
+.login-text {
+  color: rgba(45, 231, 253, 1);
+}
+.section-title-underline-login {
+  display: inline-block;
+  border-bottom: 4px solid rgba(195, 34, 137, 1);
+}
+
+.login-btn {
+  background-color: aqua;
 }
